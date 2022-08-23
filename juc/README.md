@@ -1,3 +1,3 @@
 # README
 
-java语言基础知识
+juc语言基础知识
