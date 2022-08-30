@@ -1,3 +1,3 @@
 # README
 
-juc语言基础知识
+java.util.concurrent知识点

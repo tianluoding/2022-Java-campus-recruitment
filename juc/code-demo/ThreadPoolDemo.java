@@ -25,7 +25,7 @@ public class ThreadPoolDemo {
                 1000, TimeUnit.MILLISECONDS,
                 new SynchronousQueue<Runnable>(),
                 Executors.defaultThreadFactory(),
-                new ThreadPoolExecutor.AbortPolicy());
+                new ThreadPoolExecutor.CallerRunsPolicy());
         while(true){
             pool.execute(()->{
                 printA();
